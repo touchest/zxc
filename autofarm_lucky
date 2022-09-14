@@ -1,0 +1,25 @@
+getgenv().Key = 'LKOXOZMP83G2O94OWPH8EKY8D9BHOY73B5NNRQXFK2TO6BW1'
+
+FarmTable = {"Lucky Arrow"}
+SellTable = {"Gold Coin", "Diamond", "Stone Mask"}
+
+minplayers = 12
+maxplayers = 20
+
+hopdelay = 0 -- Change it to your value if you want. (sec.) Supposed to be 0.
+proscam = false
+autosell = false
+autoarcade = false
+pickupdelay = 15 -- Same thing as in the main script.
+maxpity = 0.0 -- Stops stand rolling at certain value of pity, 0.0 - disabled. (0.0 - 10.0)
+
+StandFarm = {
+    ["standroll"] = false,
+    ["shiniesonly"] = false,
+    ["keepallshinies"] = false,
+    ["useluckys"] = false,
+    ["minarrows"] = 20,
+    ["StandsTable"] = {"Stone Free", "Whitesnake", "Star Platinum", "The World", "Killer Queen", "Crazy Diamond", "Red Hot Chili Pepper", "Anubis", "Gold Experience", "King Crimson", "Silver Chariot", "Hermit Purple", "Hierophant Green", "Purple Haze", "Cream", "The Hand", "Magician's Red", "White Album", "Aerosmith", "Sticky Fingers", "Mr. President", "Six Pistols", "Beach Boy", "D4C", "The World Alternate Universe", "Scary Monsters", "Tusk ACT 1"}
+}
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/xBosil/878e185d92d18e7c3943eba0681209b3/raw", true))()
